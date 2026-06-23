@@ -30,4 +30,4 @@ jobs:
           echo "TWAK_HMAC_SECRET=${{ secrets.TWAK_HMAC_SECRET }}" >> .env
 
       - name: Run Trading Agent (CI version)
-        run: python pancake_trader_ci.py
+  run: python .github/workflows/pancake_trader_ci.py
