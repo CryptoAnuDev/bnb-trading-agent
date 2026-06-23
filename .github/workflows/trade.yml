@@ -29,5 +29,5 @@ jobs:
           echo "TWAK_ACCESS_ID=${{ secrets.TWAK_ACCESS_ID }}" >> .env
           echo "TWAK_HMAC_SECRET=${{ secrets.TWAK_HMAC_SECRET }}" >> .env
 
-      - name: Run Trading Agent
-        run: python pancake_trader.py
+      - name: Run Trading Agent (CI version)
+        run: python pancake_trader_ci.py
