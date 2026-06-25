@@ -23,8 +23,13 @@ print(f"✅ Agent-Wallet verbunden: {wallet.address}")
 # 2. AsterDEX (ApolloX) Client mit deinen neuen Keys
 # ==========================================
 # ⚠️ HIER deine neuen API-Keys von AsterDEX eintragen!
+<<<<<<< HEAD
 APOLLOX_API_KEY = " "
 APOLLOX_API_SECRET = " "
+=======
+APOLLOX_API_KEY = "secret"
+APOLLOX_API_SECRET = " secret"
+>>>>>>> 2853be1180ab80d185e7c38b82b4fc3dac4c8418
 
 # Client initialisieren
 try:
