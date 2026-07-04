@@ -45,5 +45,5 @@ This agent trades **fully autonomously** on the BNB Chain. It combines **market 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/CryptoAnu-dev/bnb-hack-trading-agent.git
+git clone https://github.com/CryptoAnuDev/bnb-hack-trading-agent.git
 cd bnb-hack-trading-agent
